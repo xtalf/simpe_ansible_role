@@ -14,7 +14,7 @@ install:
 
 script:
   # Run tests
-  - molecule lint
+  - molecule test
 
 notifications:
   webhooks: https://galaxy.ansible.com/api/v1/notifications/
