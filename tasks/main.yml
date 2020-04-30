@@ -2,5 +2,5 @@
 # tasks file for simple_ansible_role
 - name: Simple Ansible Role
   yum:
-    name: vim1
+    name: vim
     state: present
